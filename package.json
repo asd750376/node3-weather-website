@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bash": "0.0.1",
     "express": "^4.16.4",
+    "get": "^1.4.0",
     "hbs": "^4.1.1",
     "request": "^2.88.2"
   }
